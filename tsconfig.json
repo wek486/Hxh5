@@ -1,0 +1,21 @@
+// 为了使用UniApp的类型提示，tsconfig.json文件需要配置如下内容
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "types": [
+      "@dcloudio/types",
+      "vite/client"
+    ],
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "*.d.ts"
+  ]
+}
